@@ -1,0 +1,12 @@
+.shop {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.shop-items {
+    background-color: gray;
+}
+
+.cart-summery {
+    background-color: #FF9900;
+}

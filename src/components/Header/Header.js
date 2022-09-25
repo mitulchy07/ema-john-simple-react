@@ -1,11 +1,23 @@
 import React from 'react';
 import './Header.css'
+import logo from '../../images/Logo.svg'
+import { logDOM } from '@testing-library/react';
 
 const Header = () => {
-    return (
-        <div>
-            <h1>This is Header..</h1>
-        </div>
+    return ( <
+        nav className = 'header' >
+        <
+        img src = { logo }
+        alt = "" / >
+        <
+        div className = 'order' >
+        <
+        a href = "" > Order < /a> <
+        a href = "" > Order Review < /a> <
+        a href = "" > Manage Inventory < /a> <
+        a href = "" > Login < /a> <
+        /div> <
+        /nav>
     );
 };
 
