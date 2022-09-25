@@ -4,9 +4,12 @@
 }
 
 .shop-items {
-    background-color: gray;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 40px;
+    grid-gap: 45px;
 }
 
 .cart-summery {
-    background-color: #FF9900;
+    background-color: #FFE0B3;
 }

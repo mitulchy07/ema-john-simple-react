@@ -1,0 +1,35 @@
+.item img {
+    height: 286px;
+    width: 286px;
+    margin-top: 7px;
+    margin-left: 7px;
+    margin-right: 7px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.item {
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 508px;
+    width: 300px;
+    position: relative;
+}
+
+.details {
+    padding-left: 20px;
+}
+
+.add-to-cart {
+    background-color: #FFE0B3;
+    width: 301px;
+    border-end-start-radius: 10px;
+    border-end-end-radius: 10px;
+    height: 40px;
+    border: 1px solid gray;
+    position: absolute;
+}
+
+.add-to-cart:hover {
+    background-color: orange;
+}
